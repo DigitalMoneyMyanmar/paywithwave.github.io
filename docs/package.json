@@ -1,0 +1,19 @@
+{
+  "name": "paywithwave.github.io",
+  "version": "0.0.1",
+  "description": "Documentation of New Pay with Wave integration for Merchants",
+  "main": "index.js",
+  "authors": {
+    "name": "Htet Wai Yan Soe",
+    "email": "htetwai.yansoe@wavemoney.com.mm"
+  },
+  "repository": "/paywithwave.github.io",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
