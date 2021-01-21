@@ -1,3 +1,3 @@
 #!bin/bash
 cd docs && npm run build
-mv src/.vuepress/dist/* ../
+cp -R src/.vuepress/dist/* ../

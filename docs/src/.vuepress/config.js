@@ -5,6 +5,7 @@ module.exports = {
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
   title: 'Vuepress Docs Boilerplate',
+  base: "https://digitalmoneymyanmar.github.io/paywithwave.github.io/",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
