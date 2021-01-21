@@ -14,11 +14,8 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: NPM install
-        uses: bahmutov/npm-install@v1
-
-      - name: Build site 🏗
-        run: npm run docs:build
+      - name: Build site
+        run: cd docs && npm ci && npm run build
 
       # https://github.com/marketplace/actions/github-pages-action
       - name: Deploy 🚀
