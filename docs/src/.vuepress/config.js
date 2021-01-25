@@ -1,11 +1,11 @@
 const { description } = require('../../package')
 
 module.exports = {
-  base: "https://digitalmoneymyanmar.github.io/paywithwave.github.io/",
+  // base: 'https://digitalmoneymyanmar.github.io/paywithwave.github.io/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'WavePay Payment Gateway Documentation',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -17,7 +17,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#fdd403' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
@@ -35,30 +35,17 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Integration Guide',
+        link: '/introduction',
       }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-    }
+    sidebar: [
+      '',
+      ['/introduction/', "Introduction"],
+      ['/technical-integration/', "Technical Integration"],
+      ['/integration-guide/', "How to Integrate"],
+      ['/faq/', "FAQ and Troubleshooting"],
+    ]
   },
 
   /**
