@@ -1,8 +1,8 @@
 const { description } = require('../../package')
 
 module.exports = {
-  base: 'https://digitalmoneymyanmar.github.io/paywithwave.github.io/',
-  
+  base: 'paywithwave.github.io/',
+
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
